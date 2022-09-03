@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+div {
+  display: inline-block;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  width: 500px;
+}
+.sketch-grid {
+  display: grid;
+  width:500px;
+  height:500px;
+  grid-template-rows: auto;
+  column-gap: 0;
+  row-gap: 0;  
+  margin: 5px 0;
+}
+
+.paint-box {
+  display: inline-block;
+  width: 100%;
+  height: 100%; 
+  border-color:white;
+  border-width: 1px;
+  border-style: solid; 
+}
+
+.controls {
+  background-color: rgb(17, 17, 17);
+  width: 500px;
+
+  height: 28px;
+
+}
+
+.flex {
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.btn:hover{
+  background-color: aquamarine;
+  border-color: white;
+  border-style: solid;
+}
+
+.text-field {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  height:20px;
+  margin-left:5px;
+}
+
+.slider,
+.color-selector {
+  appearance: none;
+  height: 100%;
+  margin:0;
+}
+
+.slider:hover {
+  background-color: aquamarine;
+  border-color: white;
+  border-style: solid;
+}

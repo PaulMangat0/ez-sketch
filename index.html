@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html lang="en">
+<head>
+  <title>EZ-Sketch 1.0</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <section class="title">
+   <div class=""desc"> <h1>EzSKetch 1.0</h1>
+   </div>
+ </section>
+
+<section class="drawing-area flex-v">
+  <!--sketch area-->
+  <div class="sketch-grid" id="grid-wrapper"></div>
+
+  <!-- controls -->
+  <div class="controls flex">
+    <button class="btn" id="reset">Reset</button>
+    <div class="flex">
+      <input class="slider" type="range" id="grid-size" min="1" default="10" max="50" steps="49" ></slider>
+      <input class="text-field" id="textField" type="text" size="1" disabled value="10">
+    </div>
+    <input class="color-selector" id ="color-selector" type="color"  value="#e66465">
+  </div>
+
+</section>
+
+
+
+
+  <script src="javascript/sketch.js"></script>
+
+</body>
+</html>
+    
